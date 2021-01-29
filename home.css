@@ -1,0 +1,113 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+
+}
+
+body{
+    background:url("../images/ba3.png")  repeat-y;
+}
+
+
+.main{
+    width:600px;
+    margin:40px auto;
+    padding: 20px;
+    height: auto;
+    background-color:rgba(255, 255, 255,0.4);
+    border-radius: 15px;
+}
+
+.main h1{
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(77, 183, 187);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.main #eventName{
+    display: block;
+    margin:0 auto 20px;
+    padding:10px 15px;
+    width: 90%;
+    border-radius:5px;
+    border: 0;
+    background-color: rgba(212, 154, 29, 0.719);
+    font-weight: bold;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.main #eventName::placeholder{
+    color: #eeeeee;
+    text-transform: capitalize;
+
+}
+
+.main #eventName:focus{
+    background-color: rgb(212, 154, 29);
+    color: #eeeeee;
+}
+
+.main #eventDate{
+    display: block;
+    margin:0 auto 20px;
+    padding:10px 15px;
+    width: 90%;
+    border-radius:5px;
+    border: 0;
+    background-color: rgba(212, 154, 29, 0.719);
+    font-weight: bold;
+    font-size: larger;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.main #eventDate:focus{
+    background-color: rgb(212, 154, 29);
+
+}
+
+.main #submit{
+    display: block;
+    margin:0 auto 20px;
+    padding:10px 15px;
+    width: 40%;
+    border-radius:5px;
+    border: 0;
+    background-color:rgb(77, 183, 187);
+    font-weight: bold;
+    font-size: larger;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.main #submit:hover{
+    background-color: rgb(212, 154, 29);
+
+}
+
+
+.main #event{
+    text-align: center;
+    text-transform: capitalize;
+    background-color:rgb(77, 183, 187);
+    font-weight: bold;
+    color: #ffffff;
+    list-style: none;
+    display: block;
+    margin:0 auto 20px;
+    padding:10px 15px;
+    width: 90%;
+    border-radius:5px;
+    border: 0;
+}
+
+.main #start{
+    display: none;
+} 
